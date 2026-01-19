@@ -85,11 +85,11 @@ export default function Cards() {
             {/* Image and Description Container */}
             <div className={`relative z-10 flex flex-col gap-6 flex-1 ${card.layout === 'left' ? 'lg:order-2' : 'lg:order-1'}`}>
               {/* Image Container */}
-              <div className="w-full h-[300px] border-3 border-white/30 rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-r from-white/10 to-transparent/50">
+              <div className="w-full h-auto border-2 border-white/20 rounded-2xl overflow-hidden shadow-2xl bg--to-r from-white/10 to-transparent/50">
                 <img
                   src={card.image}
                   alt={`${card.title} Image`}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
 
