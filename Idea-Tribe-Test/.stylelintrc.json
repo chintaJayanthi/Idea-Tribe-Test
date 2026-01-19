@@ -1,0 +1,17 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "overrides": [
+    {
+      "files": ["src/**/*.css"],
+      "customSyntax": "postcss-syntax",
+      "rules": {
+        "at-rule-no-unknown": [
+          true,
+          {
+            "ignoreAtRules": ["tailwind", "layer", "apply", "responsive", "screen", "variants"]
+          }
+        ]
+      }
+    }
+  ]
+}
