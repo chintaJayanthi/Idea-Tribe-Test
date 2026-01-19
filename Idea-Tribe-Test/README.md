@@ -1,16 +1,29 @@
-# React + Vite
+# Idea Tribe Test
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
+This project is a **Figma-to-React implementation** of the Hero section and supporting UI components.  
+It demonstrates how to translate a Figma design into pixel‑perfect React code using **TailwindCSS** and **Framer Motion** for styling and animations.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
+- **React** – component-based UI
+- **TailwindCSS** – utility-first styling
+- **Framer Motion** – smooth animations
+- **Figma** – design reference
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎨 Design Reference
+The layout and styling are based on the Figma file:  
+[Idea Tribe Test – Figma](https://www.figma.com/design/TLR0toUjzA3TmbRKJ67Ttc/Idea-Tribe-Test)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/chintaJayanthi/Idea-Tribe-Test.git
+cd Idea-Tribe-Test
+npm install
+npm run dev
