@@ -25,5 +25,6 @@ The layout and styling are based on the Figma file:
 ```bash
 git clone https://github.com/chintaJayanthi/Idea-Tribe-Test.git
 cd Idea-Tribe-Test
+cd Idea-Tribe-Test
 npm install
 npm run dev
